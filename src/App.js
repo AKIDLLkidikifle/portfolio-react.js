@@ -6,8 +6,8 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skill from "./components/Skill";
 import Portfolio from "./components/Portfolio";
-// import Contact from "./components/Contact";
-// import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
        <About />
        <Skill />
        <Portfolio />
-       {/* <Contact />
-       <Footer />    */}
+       <Contact />
+       <Footer />   
      </div>
 
   );

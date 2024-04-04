@@ -1,44 +1,101 @@
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
-
-const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1
-    }
-  };
-
-
 function Portfolio(){
-    return(
-         <div className="container my-5">
-             <Carousel responsive={responsive}>
-                  <div>
-                     <div className='card1'>
-                         <img src='./image/me.JPG' alt='card' />
-                         <h1>the first card</h1>
-                         <p>njf ejfehferf erfeewe ejijoijof ejifjoe fwie</p>
-                     </div>
-                  </div>
-                  <div>Item 2</div>
-                  <div>Item 3</div>
-                  <div>Item 4</div>
-             </Carousel>
-         </div>
-    )
+  return(
+    <div className="container py-5 portfolio" id="portfolio">
+        <h1 className="text-center">Popular Dishes</h1>
+        <div className="row row-cols-1 row-cols-md-3 g-4 py-5">
+
+            <div className="col">
+                <div className="card">
+                    <img src="https://picsum.photos/200/300" className="card-img-top" alt="..." height="250px" />
+                    <div className="card-body">
+                        <h5 className="card-title">TIRAMISU CAKE</h5>
+                        <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                            dignissimos accusantium amet similique velit iste.</p>
+                    </div>
+                    <div className="mb-5 d-flex justify-content-around">
+                        <h3>190$</h3>
+                        <button className="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col">
+                <div className="card">
+                    <img src="https://picsum.photos/200/300" className="card-img-top" alt="..." height="250px" />
+                    <div className="card-body">
+                        <h5 className="card-title">TIRAMISU CAKE</h5>
+                        <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                            dignissimos accusantium amet similique velit iste.</p>
+                    </div>
+                    <div className="mb-5 d-flex justify-content-around">
+                        <h3>190$</h3>
+                        <button className="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col">
+                <div className="card">
+                    <img src="https://picsum.photos/200/300" className="card-img-top" alt="..." height="250px" />
+                    <div className="card-body">
+                        <h5 className="card-title">TIRAMISU CAKE</h5>
+                        <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                            dignissimos accusantium amet similique velit iste.</p>
+                    </div>
+                    <div className="mb-5 d-flex justify-content-around">
+                        <h3>190$</h3>
+                        <button className="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col">
+                <div className="card">
+                    <img src="https://picsum.photos/200/300" className="card-img-top" alt="..." height="250px" />
+                    <div className="card-body">
+                        <h5 className="card-title">TIRAMISU CAKE</h5>
+                        <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                            dignissimos accusantium amet similique velit iste.</p>
+                    </div>
+                    <div className="mb-5 d-flex justify-content-around">
+                        <h3>190$</h3>
+                        <button className="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col">
+                <div className="card">
+                    <img src="https://picsum.photos/200/300" className="card-img-top" alt="..." height="250px" />
+                    <div className="card-body">
+                        <h5 className="card-title">TIRAMISU CAKE</h5>
+                        <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                            dignissimos accusantium amet similique velit iste.</p>
+                    </div>
+                    <div className="mb-5 d-flex justify-content-around">
+                        <h3>190$</h3>
+                        <button className="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div className="col">
+                <div className="card">
+                    <img src="https://picsum.photos/200/300" className="card-img-top" alt="..."  height="250px"/>
+                    <div className="card-body">
+                        <h5 className="card-title">TIRAMISU CAKE</h5>
+                        <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                            dignissimos accusantium amet similique velit iste.</p>
+                    </div>
+                    <div className="mb-5 d-flex justify-content-around">
+                        <h3>190$</h3>
+                        <button className="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>    
+  )
 }
 
 export default Portfolio;

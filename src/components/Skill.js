@@ -1,6 +1,6 @@
 function Skill(){
     return(
-        <section className="skill">
+        <section className="skill" id="skill">
     <div className="container my-5">
                <div className="px-4 py-1 my-3 text-center">
                    <h5 className="display-5 fw-bold text-body-emphasis">My Skill</h5>

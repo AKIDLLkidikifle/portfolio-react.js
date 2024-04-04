@@ -1,7 +1,7 @@
 function About(){
     return(
       <div>
-         <section className="about">
+         <section className="about" id="about">
            <div className="container ">
             <div className="row flex-lg-row-reverse align-items-center g-5 ">
                 <div className="px-4  mt-5 text-center">
