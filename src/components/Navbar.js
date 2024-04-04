@@ -32,13 +32,12 @@ function Navbar(){
                        <li className="nav-item ms-2 d-none d-md-inline">
                          <a className="btn btn-secondary" href="#contact">contact</a>
                        </li>
-                  
                    </ul>
                </div>
            </div>
-           <div className="form-check form-switch mx-4">
-              {/* <input className="form-check-input p-2" type="checkbox"  role="switch" id="flexSwitchCheckChecked" checked onClick={myFunction()} /> */}
-           </div>
+           {/* <div className="form-check form-switch mx-4">
+              <input className="form-check-input p-2" type="checkbox"  role="switch" id="flexSwitchCheckChecked" checked onClick={myFunction()} />
+           </div> */}
         </nav>
      </div>
     )
