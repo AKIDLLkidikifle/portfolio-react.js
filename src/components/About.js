@@ -1,4 +1,22 @@
 function About(){
+   const pdf_url = "http://localhost:3000/maths.pdf"
+   function downloadFileAtUrl(url){
+         fetch(url)
+         .then(response=>response.blob())
+         .then((blob)=>{
+            const blobUrl =  window.URL.createObjectURL(new Blob([blob]));
+            const filename = url.split("/").pop();
+            const aTag = document.createElement("a");
+            aTag.href =  blobUrl;
+            aTag.setAttribute("download", filename);
+            document.body.appendChild(aTag);
+            aTag.click();
+            aTag.remove();
+         });
+
+
+   }
+
     return(
       <div>
          <section className="about" id="about">
@@ -10,7 +28,7 @@ function About(){
                     <div className="col-lg-6 mx-auto">
                       <p className="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
                       <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                        <button type="button" className="btn btn-primary btn-lg px-4 gap-3">Download cv</button>
+                        <button onClick={()=>{downloadFileAtUrl(pdf_url)}} type="button" className="btn btn-primary btn-lg px-4 gap-3">Download cv</button>
                       </div>
                     </div>
                 </div>
