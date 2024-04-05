@@ -5,7 +5,7 @@ function Hero(){
     const [textmk] = useTypewriter({
        words : ["web developer", "ui/ ux designer", "mern stack developer"],
        loop : {},
-       typeSpeed: 100,
+       typeSpeed: 200,
        delaySpeed: 40
     });
 
@@ -17,7 +17,7 @@ function Hero(){
                        <img src="./image/me.JPG" className="d-block mx-lg-auto img-fluid blob" alt="hero" width="700" height="500" loading="lazy" />
                   </div>
                   <div className="col-lg-6">
-                       <h1 className="display-5 fw-bold lh-1 mb-3">I am  
+                       <h1 className="display-5 fw-bold lh-1 mb-3">👋 I am  
                           <span style={{color:"green"}}>
                               {" " +textmk}
                           </span>
