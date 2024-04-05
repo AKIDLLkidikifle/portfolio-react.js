@@ -1,4 +1,14 @@
+import React from "react";
+import { useTypewriter, Cursor } from "react-simple-typewriter"
+
 function Hero(){
+    const [textmk] = useTypewriter({
+       words : ["web developer", "ui/ ux designer", "mern stack developer"],
+       loop : {},
+       typeSpeed: 100,
+       delaySpeed: 40
+    });
+
     return(
         <div>
             <div className="container" id="home">
@@ -7,7 +17,13 @@ function Hero(){
                        <img src="./image/me.JPG" className="d-block mx-lg-auto img-fluid blob" alt="hero" width="700" height="500" loading="lazy" />
                   </div>
                   <div className="col-lg-6">
-                       <h1 className="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
+                       <h1 className="display-5 fw-bold lh-1 mb-3">I am  
+                          <span style={{color:"green"}}>
+                              {" " +textmk}
+                          </span>
+                          <Cursor />
+                          
+                       </h1>
                        <p className="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
                        <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                      {/* <button type="button" className="btn btn-primary btn-lg px-4 me-md-2"></button>
