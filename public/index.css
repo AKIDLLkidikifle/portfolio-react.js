@@ -11,9 +11,6 @@
 
 }
 
-/* type writter */
-
-
 
 @keyframes cursor{
      50% { border-color: transparent }
@@ -50,6 +47,11 @@ a{
         border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
     }
 }
+
+/* dark and light mode */
+
+
+
 
 /* project */
 /* #root {

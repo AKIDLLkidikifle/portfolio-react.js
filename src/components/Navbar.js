@@ -1,5 +1,12 @@
 function Navbar(){
 
+    function changeMode() {
+      var element = document.body;
+      element.dataset.bsTheme =
+        element.dataset.bsTheme === "dark" ? "light" : "dark";
+    }
+
+     
     return(
         <div className="container">
         <nav className="navbar navbar-expand-md navbar-light pt-3 pb-4">
@@ -35,9 +42,9 @@ function Navbar(){
                    </ul>
                </div>
            </div>
-           {/* <div className="form-check form-switch mx-4">
-              <input className="form-check-input p-2" type="checkbox"  role="switch" id="flexSwitchCheckChecked" checked onClick={myFunction()} />
-           </div> */}
+           <div className="form-check form-switch mx-4">
+              <input className="form-check-input p-2" type="checkbox"  role="switch" id="flexSwitchCheckChecked" unChecked onClick={changeMode} />
+           </div>
         </nav>
      </div>
     )

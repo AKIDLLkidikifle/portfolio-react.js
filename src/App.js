@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
 
+
 function App() {
   return (
      <div >
