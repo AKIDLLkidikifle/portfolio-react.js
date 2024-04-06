@@ -3,7 +3,7 @@ function Skill(){
         <section className="skill" id="skill">
     <div className="container my-5">
                <div className="px-4 py-1 my-3 text-center">
-                   <h5 className="display-5 fw-bold text-body-emphasis">My Skill</h5>
+                   <h4 className="display-5  text-body-emphasis">My Skill</h4>
                    <p className="lead mb-4">Quickly design and customize responsive moopen source toolkit, featur</p>
               </div>
       <div className="row flex-lg-row-reverse align-items-center g-5 py-1">

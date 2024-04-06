@@ -23,12 +23,13 @@ function About(){
            <div className="container ">
             <div className="row flex-lg-row-reverse align-items-center g-5 ">
                 <div className="px-4  mt-5 text-center">
-                    <img className="d-block mx-auto mb-4" src="./image/me.JPG" alt="" width="150" height="150" />
-                    <h1 className="display-5 fw-bold text-body-emphasis">Centered hero</h1>
+                    <img className="d-block mx-auto mb-2" src="./image/about.JPG" alt="" width="150" height="150" />
+                    <p className="display-5   mb-5 text-body-emphasis"><span style={{textDecoration: "underline"}}>About</span> Me</p>
                     <div className="col-lg-6 mx-auto">
-                      <p className="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                      <p className="lead mb-4">As a junier Developer Design and implement RESTful APIs for seamless integration between front-end and back-end systems. Work closely with UI/UX designers to create responsive and visually appealing user interfaces. Troubleshoot, debug, and optimize code to ensure high performance and reliability.</p>
                       <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                        <button onClick={()=>{downloadFileAtUrl(pdf_url)}} type="button" className="btn btn-primary btn-lg px-4 gap-3">Download cv</button>
+                        <button onClick={()=>{downloadFileAtUrl(pdf_url)}} type="button" className="btn btn-primary btn-lg px-4 mt-4 my-2 gap-3">Download cv</button>
+                        <button  type="button" className="btn btn-primary btn-lg px-4 mt-4 my-2 gap-3">Certificate</button>
                       </div>
                     </div>
                 </div>

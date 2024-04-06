@@ -38,13 +38,22 @@ a{
 
 .about img{
     border-radius: 50%;
-    border: 10px solid white;
+    border: 10px solid #0a61c5;
+    box-shadow: -8px -8px 15px rgba(235, 225, 225, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.about button{
+  box-shadow: -8px -8px 15px rgba(243, 238, 238, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .footer{
     background-color: #0477fa;
 }
 
+
+.progress{
+  height: 6px;
+}
 
 
 @keyframes animate {
@@ -211,7 +220,7 @@ a{
   }
   
   .btn:hover{
-      background-color: #27ae60;
+      background-color: #0477fa;
   }
   
   .field:focus{
@@ -258,17 +267,3 @@ a{
 
   }
 
-  /* @media screen and (max-width: 250px){
-    .contact-box{
-      max-width: 500px;
-    }
-    .contact{
-      padding: 2px 2px;
-    }
-    .field{
-      padding: 0.5rem 0rem;
-    }
-    form{
-      padding: 5rem 0rem;
-    }
-  }  */
