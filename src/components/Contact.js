@@ -23,7 +23,7 @@ function Contact(){
     };
 
     return(
-	   <div className="contact my-5">
+	   <div className="contact my-5" id="contact">
 		  <div className="contact-box">
 			 <div className="left"></div>
 			 

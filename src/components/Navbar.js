@@ -13,8 +13,8 @@ function Navbar(){
           <div className="container-xxl">
 
               <a className="navbar-brand" href="#intro">
-                <span className="text-secondary fw-bold">
-                  kidi :)
+                <span style={{fontSize: 25}} className="text-secondary fw-bold">
+                  kidi <span style={{color:"#0477fa"}}>:)</span>
                 </span>
               </a>
 

@@ -23,7 +23,7 @@ function Portfolio(){
       }; 
 
   return(
-    <div className='container mb-5'>
+    <div className='container mb-5' id='portfolio'>
     <Carousel responsive={responsive} showDots={true} autoPlay={true}  autoPlaySpeed={2000}>
        <div className='card'>
            <div>

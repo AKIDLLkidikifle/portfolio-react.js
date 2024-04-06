@@ -11,6 +11,14 @@
 
 }
 
+.socialmedia-icon{
+  margin-bottom: 70px;
+}
+
+.lead{
+   margin-bottom: 0;
+}
+
 
 @keyframes cursor{
      50% { border-color: transparent }
@@ -89,7 +97,7 @@ a{
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: #000;
+    background-color: #0477fa;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -144,6 +152,10 @@ a{
     background-size: cover;
     height: 100%;
   }
+
+  form{
+    padding: 5rem 1rem;
+  }
   
   .right{
     padding: 25px 40px;
@@ -164,7 +176,7 @@ a{
       height: 4px;
       width: 50px;
       border-radius: 2px;
-      background-color: #2ecc71;
+      background-color: #0477fa;
   }
   
   .field{
@@ -189,7 +201,7 @@ a{
   .btn{
     width: 100%;
     padding: 0.5rem 1rem;
-    background-color: #2ecc71;
+    background-color: #0477fa;
     color: #fff;
     font-size: 1.1rem;
     border: none;
@@ -215,3 +227,48 @@ a{
       height: 200px;
     }
   }
+
+  @media screen and (max-width: 600px){
+    .contact-box{
+      max-width: 600px;
+    }
+    .contact{
+      padding: 10px 32px;
+    }
+
+    .field{
+      padding: 0.5rem .5rem;
+    }
+
+  }
+
+  @media screen and (max-width: 400px){
+    .contact-box{
+      max-width: 500px;
+    }
+    .contact{
+      padding: 5px 5px;
+    }
+    .field{
+      padding: 0.5rem 0rem;
+    }
+    .right{
+      padding: 15px 10px;
+    }
+
+  }
+
+  /* @media screen and (max-width: 250px){
+    .contact-box{
+      max-width: 500px;
+    }
+    .contact{
+      padding: 2px 2px;
+    }
+    .field{
+      padding: 0.5rem 0rem;
+    }
+    form{
+      padding: 5rem 0rem;
+    }
+  }  */
