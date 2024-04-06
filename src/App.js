@@ -8,6 +8,7 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
+import Certificate from "./components/certificate";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Navbar />
         <Hero />
         <About />
+        <Certificate />
         <Skill />
         <Portfolio />
         <Contact />
