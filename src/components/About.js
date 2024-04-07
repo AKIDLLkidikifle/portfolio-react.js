@@ -29,7 +29,7 @@ function About(){
                       <p className="lead mb-4">As a junier Developer Design and implement RESTful APIs for seamless integration between front-end and back-end systems. Work closely with UI/UX designers to create responsive and visually appealing user interfaces. Troubleshoot, debug, and optimize code to ensure high performance and reliability.</p>
                       <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
                         <button onClick={()=>{downloadFileAtUrl(pdf_url)}} type="button" className="btn btn-primary btn-lg px-4 mt-4 my-2 gap-3">Download cv</button>
-                        <button  type="button" className="btn btn-primary btn-lg px-4 mt-4 my-2 gap-3">Certificate</button>
+                        <button  type="button" className="btn btn-primary btn-lg px-4 mt-4 my-2 gap-3"><a href="https://certificate-fgcp.onrender.com">Certificate</a></button>
                       </div>
                     </div>
                 </div>
