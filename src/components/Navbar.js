@@ -9,7 +9,7 @@ function Navbar(){
      
     return(
         <div className="container">
-        <nav className="navbar navbar-expand-md navbar-light pt-3 pb-4">
+        <nav className="navbar  navbar-expand-md navbar-light pt-3 pb-4">
           <div className="container-xxl">
 
               <a className="navbar-brand" href="#intro">

@@ -28,7 +28,7 @@ function Contact(){
 			 <div className="left"></div>
 			 
 			 <form ref={form} onSubmit={sendEmail} className="right">
-				     <h2>Contact Us</h2>
+				     <h2>Let's get in touch</h2>
 				     <input type="text" className="field" placeholder="Your Name" name="user_name" />
 				     <input type="text" className="field" placeholder="Your Email" name="user_email" />
 				     <input type="text" className="field" placeholder="Phone" name="user_phone" />
