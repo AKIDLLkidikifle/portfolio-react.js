@@ -30,6 +30,7 @@
 
 a{
     text-decoration: none;
+    color: whitesmoke;
 }
 
 .about{
@@ -96,6 +97,13 @@ a{
     font-family: arial;
   }
   
+  .card p{
+     /* margin-left: 2px;
+     margin-right: 2px; */
+     margin: 4px 7px 7px 7px;
+  }
+
+
   .price {
     color: grey;
     font-size: 22px;
@@ -127,18 +135,19 @@ a{
   }
 
   .newsletter button{
-    background-color: #1a1c1f;
+    /* background-color: #1a1c1f;
     box-shadow:  1px 1px 1px 1px  rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
-    font-size: 26px;
+    font-size: 26px; */
+    color: black;
   }
 
 
   /* contact */
-  #contact button{
+  /* #contact button{
     background-color: #0b0c0c;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 20px;   
-  }
+  } */
 
   .contact{
     height: 100vh;
@@ -185,10 +194,10 @@ a{
     padding: 5rem 1rem;
   }
   
-  .right{
+  /* .right{
     padding: 25px 40px;
     background-color: rgb(15, 14, 14);
-  }
+  } */
   
   h2{
     position: relative;
