@@ -13,6 +13,7 @@
 
 .socialmedia-icon{
   margin-bottom: 70px;
+  cursor: pointer;
 }
 
 .lead{
@@ -141,6 +142,7 @@ a{
     color: black;
   }
 
+  
 
   /* contact */
   /* #contact button{
