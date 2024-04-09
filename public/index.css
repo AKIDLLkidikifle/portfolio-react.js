@@ -299,3 +299,6 @@ a{
 
   }
 
+ .error{
+   border: 3px solid red;
+ }

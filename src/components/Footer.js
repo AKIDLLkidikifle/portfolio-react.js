@@ -1,8 +1,9 @@
 import  "boxicons";
-import { useState } from "react";
+
 
 function Footer(){
-
+  const d = new Date();
+  let year = d.getFullYear();
 return(
 <div className="container">
   <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
@@ -11,7 +12,7 @@ return(
         {/* <svg className="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg> */}
       </a>
      
-      <span className="mb-3 mb-md-0 text-body-secondary">© 2024  kidi :)</span>
+      <span className="mb-3 mb-md-0 text-body-secondary">© {year}  kidi :)</span>
     </div>
 
     <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
